@@ -14,8 +14,11 @@ function Nav() {
           <Link to={"/home"}>
             <li className="m-[2rem] hover:text-red-500 font-semibold">Home</li>
           </Link>
-          <Link to={"/category"}>
+          <Link to={"/categorias"}>
             <li className="m-[2rem] hover:text-red-500 font-semibold">Categorias</li>
+          </Link>
+          <Link to={"/cadastrarCategoria"}>
+            <li className="m-[2rem] hover:text-red-500 font-semibold">Criar Categoria</li>
           </Link>
         </ul>
       </nav>
